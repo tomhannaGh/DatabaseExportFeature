@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DBExport", "DBExport.csproj", "{CA902DFB-6DB6-486D-B790-8C853B5ED3C6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DBExport.Options", "..\DBExport.Options\DBExport.Options.csproj", "{C31C9AF3-387F-43EE-B3E6-A535D7B0CD76}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B0A43283-A3EE-4EA7-ACA8-B1CCE80B3D44}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DBExport.OptionsTests1", "..\DBExport.OptionsTests1\DBExport.OptionsTests1.csproj", "{7D7D728E-4C5A-420D-8938-F4D3D6064D56}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DBExport.DatabaseObjects", "..\DBExport.DatabaseObjects\DBExport.DatabaseObjects.csproj", "{7B3BB7EE-F11D-4F6C-92F9-4B9C962A3358}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBExport.DatabaseWirter", "..\DBExport.DatabaseWirter\DBExport.DatabaseWirter.csproj", "{A6DDEE71-9D92-49DF-A25D-03768476B224}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA902DFB-6DB6-486D-B790-8C853B5ED3C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA902DFB-6DB6-486D-B790-8C853B5ED3C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA902DFB-6DB6-486D-B790-8C853B5ED3C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA902DFB-6DB6-486D-B790-8C853B5ED3C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C31C9AF3-387F-43EE-B3E6-A535D7B0CD76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C31C9AF3-387F-43EE-B3E6-A535D7B0CD76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C31C9AF3-387F-43EE-B3E6-A535D7B0CD76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C31C9AF3-387F-43EE-B3E6-A535D7B0CD76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D7D728E-4C5A-420D-8938-F4D3D6064D56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D7D728E-4C5A-420D-8938-F4D3D6064D56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D7D728E-4C5A-420D-8938-F4D3D6064D56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D7D728E-4C5A-420D-8938-F4D3D6064D56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B3BB7EE-F11D-4F6C-92F9-4B9C962A3358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B3BB7EE-F11D-4F6C-92F9-4B9C962A3358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B3BB7EE-F11D-4F6C-92F9-4B9C962A3358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B3BB7EE-F11D-4F6C-92F9-4B9C962A3358}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6DDEE71-9D92-49DF-A25D-03768476B224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6DDEE71-9D92-49DF-A25D-03768476B224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6DDEE71-9D92-49DF-A25D-03768476B224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6DDEE71-9D92-49DF-A25D-03768476B224}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7D7D728E-4C5A-420D-8938-F4D3D6064D56} = {B0A43283-A3EE-4EA7-ACA8-B1CCE80B3D44}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EDA0094C-91B1-440B-AB08-8FD035C44220}
+	EndGlobalSection
+EndGlobal

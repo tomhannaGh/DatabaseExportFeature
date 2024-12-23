@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "DBExport": {
+      "commandName": "Project",
+      "commandLineArgs": "\"Server=.;Database=Test;User=sa;Password=tomhanna.code;TrustServerCertificate=true\" \"select * from Users\" \"-f:filename\" \"-server:SqlServer\" \"-format:csv\" \"-adt\" \"-compress\""
+    }
+  }
+}
